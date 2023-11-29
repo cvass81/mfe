@@ -17,7 +17,7 @@ const devConfig = {
       exposes: {
         './App': './src/bootstrap.js',
       },
-      // shared: packageJson.dependencies,
+      shared: packageJson.dependencies,
     }),
     new HtmlWepbackPlugin({ template: './public/index.html' }),
   ],

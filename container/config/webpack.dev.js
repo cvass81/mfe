@@ -16,7 +16,7 @@ const devConfig = {
       remotes: {
         marketing: 'marketing@http://localhost:8081/remoteEntry.js',
       },
-      // shared: packageJson.dependencies,
+      shared: packageJson.dependencies,
     }),
     new HtmlWepbackPlugin({ template: './public/index.html' }),
   ],
