@@ -25,5 +25,6 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'react/function-component-definition': 'off',
     'no-restricted-exports': 'off',
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
   },
 };
