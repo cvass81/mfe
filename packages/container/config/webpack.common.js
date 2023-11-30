@@ -1,3 +1,5 @@
+const HtmlWepbackPlugin = require('html-webpack-plugin');
+
 module.exports = {
   resolve: {
     extensions: ['.js', '.jsx'],
@@ -17,4 +19,5 @@ module.exports = {
       },
     ],
   },
+  plugins: [new HtmlWepbackPlugin({ template: './public/index.html' })],
 };
